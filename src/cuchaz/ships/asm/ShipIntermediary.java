@@ -13,7 +13,7 @@ package cuchaz.ships.asm;
 import java.lang.reflect.Field;
 import java.util.List;
 
-import net.minecraft.command.IEntitySelector;
+import net.minecraft.command.EntitySelector;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;

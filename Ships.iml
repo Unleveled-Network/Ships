@@ -2,7 +2,7 @@
 <module type="JAVA_MODULE" version="4">
   <component name="EclipseModuleManager">
     <libelement value="jar://$MODULE_DIR$/libs/commons-codec-1.8.jar!/" />
-    <varelement var="file://$WORKSPACE_LOC$/forge-v1.6.4/mcp/bin/minecraft" kind="link:" value="binForge" />
+    <varelement var="file://$WORKSPACE_LOC$/forge-v1.6.4/mcp/bin/minecraft" value="link:binForge" />
     <src_description expected_position="0">
       <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
       <src_folder value="file://$MODULE_DIR$/test" expected_position="1" />
@@ -37,5 +37,8 @@
       </library>
     </orderEntry>
     <orderEntry type="inheritedJdk" />
+    <orderEntry type="library" name="forge-1.12.2-14.23.5.2847-universal" level="application" />
+    <orderEntry type="library" name="launchwrapper-1.12" level="application" />
+    <orderEntry type="library" name="asm-all-5.2" level="application" />
   </component>
 </module>

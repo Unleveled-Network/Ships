@@ -15,7 +15,7 @@ import java.util.Map;
 
 import org.objectweb.asm.ClassVisitor;
 
-import cpw.mods.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper;
+import net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper;
 
 public class ObfuscationAwareAdapter extends ClassVisitor
 {

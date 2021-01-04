@@ -12,13 +12,13 @@ package cuchaz.ships.asm;
 
 import java.util.Map;
 
-import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
-import cpw.mods.fml.relauncher.IFMLLoadingPlugin.MCVersion;
-import cpw.mods.fml.relauncher.IFMLLoadingPlugin.Name;
-import cpw.mods.fml.relauncher.IFMLLoadingPlugin.TransformerExclusions;
+import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
+import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin.MCVersion;
+import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin.Name;
+import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin.TransformerExclusions;
 
 @Name( "cuchaz.ships.core" )
-@MCVersion( "1.6.4" )
+@MCVersion( "1.12.2" )
 @TransformerExclusions( { "cuchaz.ships.asm" } )
 public class CoreModPlugin implements IFMLLoadingPlugin
 {
